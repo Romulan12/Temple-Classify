@@ -1,0 +1,8 @@
+[DEFAULT]
+model=VGG16
+pretrained_model_path=../models/temple-classifier-best.pt
+output_directory=../data/output/
+input_shape=224
+
+[LABELS]
+labels=Armenia,Australia,Germany,Hungary+Slovakia+Croatia,Indonesia-Bali,Japan,Malaysia+Indonesia,Portugal+Brazil,Russia,Spain,Thailand

@@ -1,0 +1,28 @@
+---
+name=input_path
+short=i
+description=Path of the Input Directory
+prompt=true
+confirmation=true
+---
+name=model
+short=m
+description=Prediction Model to be used
+default="EFFB3"
+---
+name=pretrained_path
+short=p
+description=Path of the pretrained model
+default="models/temple-classifier-eff-best.pt"
+---
+name=output_dir
+short=o
+description=Path of the Output Directory
+default="data/output/"
+---
+name=image_shape
+short=s
+description=Width and Height of the image
+default="300"
+---
+---
